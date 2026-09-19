@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="wrap">
+    <h1>{{ page.hero_title | default: site.title }}</h1>
+    <p class="hero-tagline">{{ page.hero_subtitle | default: site.tagline }}</p>
+    {% if page.hero_cta_url %}
+    <a class="btn btn-primary" href="{{ page.hero_cta_url | relative_url }}">{{ page.hero_cta_text }}</a>
+    {% endif %}
+  </div>
+</section>
+
+<section class="home-content wrap">
+  {{ content }}
+</section>
+
+{% if page.blocks %}
+<section class="home-blocks wrap">
+  {% for block in page.blocks %}
+  <div class="home-block">
+    <h2>{{ block.title }}</h2>
+    <p>{{ block.text }}</p>
+    {% if block.url %}<a href="{{ block.url | relative_url }}">{{ block.link_text | default: "Scopri di più" }} &rarr;</a>{% endif %}
+  </div>
+  {% endfor %}
+</section>
+{% endif %}

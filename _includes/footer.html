@@ -1,0 +1,37 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-col">
+      <strong>{{ site.title }}</strong>
+      <p>{{ site.description }}</p>
+    </div>
+
+    <div class="footer-col">
+      <strong>Link</strong>
+      <ul class="footer-links">
+        {% for item in site.nav %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <strong>Seguici</strong>
+      <ul class="footer-links">
+        {% if site.social.telegram %}<li><a href="https://t.me/{{ site.social.telegram }}">Telegram</a></li>{% endif %}
+        {% if site.social.github %}<li><a href="https://github.com/{{ site.social.github }}">GitHub</a></li>{% endif %}
+        {% if site.social.mastodon %}<li><a href="{{ site.social.mastodon }}" rel="me">Mastodon</a></li>{% endif %}
+        <li><a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap footer-bottom">
+    <p>
+      &copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Contenuti distribuiti con licenza
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it">CC BY-SA 4.0</a>,
+      salvo diversa indicazione. Sito generato con
+      <a href="https://jekyllrb.com/">Jekyll</a> e ospitato su
+      <a href="https://pages.github.com/">GitHub Pages</a>.
+    </p>
+  </div>
+</footer>

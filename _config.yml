@@ -1,0 +1,69 @@
+# Configurazione del sito - Sulmona LUG
+title: Sulmona LUG
+tagline: Linux User Group di Sulmona
+description: >-
+  Sulmona LUG è il gruppo utenti Linux e software libero di Sulmona e della Valle Peligna:
+  incontri, workshop, installation party e divulgazione su Linux, open source e cultura digitale libera.
+
+url: "https://sulmona-lug.github.io"
+baseurl: ""
+
+lang: it_IT
+timezone: Europe/Rome
+
+author:
+  name: Sulmona LUG
+  email: info@sulmonalug.it
+
+# Social / contatti - da aggiornare con i canali reali del gruppo
+social:
+  github: sulmona-lug
+  telegram: sulmonalug
+  mastodon: ""
+  email: info@sulmonalug.it
+
+# Navigazione principale (usata in _includes/nav.html)
+nav:
+  - title: Home
+    url: /
+  - title: Chi siamo
+    url: /chi-siamo/
+  - title: Eventi
+    url: /eventi/
+  - title: Partecipa
+    url: /partecipa/
+  - title: FAQ
+    url: /faq/
+  - title: Contatti
+    url: /contatti/
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+  - .github
+
+permalink: /:title/
