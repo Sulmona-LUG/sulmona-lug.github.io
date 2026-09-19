@@ -9,6 +9,11 @@ Sulmona LUG (Linux User Group) è un'associazione informale di persone accomunat
 per **Linux**, il **software libero** e la cultura digitale aperta, attiva a Sulmona e nella
 Valle Peligna.
 
+<figure class="mascot-figure">
+  <img src="{{ '/assets/images/ovidiux.png' | relative_url }}" alt="Ovidiux, la mascotte del Sulmona LUG" width="180" height="180">
+  <figcaption>Ovidiux, la nostra mascotte: un pinguino con la corona d'alloro, in onore di Ovidio, il poeta nato a Sulmona.</figcaption>
+</figure>
+
 ## I nostri obiettivi
 
 - **Diffondere Linux e il software libero**, mostrando che sono strumenti concreti e accessibili
@@ -27,3 +32,13 @@ proprio tempo libero all'organizzazione degli incontri e alla cura di questo sit
 importanti vengono discusse insieme durante gli incontri o sui nostri canali di comunicazione.
 
 Vuoi dare una mano? Vai alla pagina [Partecipa](/partecipa/) per scoprire come.
+
+## La nostra storia
+
+Il gruppo è attivo da anni sul territorio della Valle Peligna. Tra i cimeli delle prime edizioni
+c'è anche la nostra bandiera storica, realizzata dal gruppo tempo fa:
+
+<figure class="flag-figure">
+  <img src="{{ '/assets/images/flag_2.0.svg' | relative_url }}" alt="Bandiera storica del Sulmona LUG">
+  <figcaption>La bandiera storica del Sulmona LUG.</figcaption>
+</figure>
