@@ -14,10 +14,10 @@ blocks:
     text: "Incontri mensili, mailing list e canale Telegram: la community è aperta a tutti, dai principianti agli smanettoni."
     url: /partecipa/
     link_text: "Scopri come partecipare"
-  - title: "Vieni ai nostri eventi"
-    text: "Installation party, workshop e serate a tema su Linux, privacy e software libero, aperti a chiunque sia curioso."
-    url: /eventi/
-    link_text: "Vedi il calendario"
+  - title: "Linux Day 2026"
+    text: "Sabato 24 ottobre festeggiamo la Giornata Nazionale per il Software Libero: programma in arrivo, segna la data!"
+    url: /linux-day-2026/
+    link_text: "Scopri l'evento"
   - title: "Chi siamo"
     text: "Un gruppo di volontari che promuove software libero e cultura digitale aperta sul territorio della Valle Peligna."
     url: /chi-siamo/
