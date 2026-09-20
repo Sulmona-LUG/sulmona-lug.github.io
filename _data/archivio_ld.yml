@@ -1,0 +1,25 @@
+# Archivio fotografico del Linux Day: aggiungi qui le foto raccolte.
+# Ogni edizione: anno (numero), didascalia (testo breve, opzionale) e la lista immagini.
+# La prima immagine della lista è la copertina; le altre diventano miniature nella galleria.
+# Ogni immagine: file (nome del file in assets/images/archivio_LD/) e, se vuoi,
+# una didascalia specifica (altrimenti usa quella dell'edizione).
+- anno: 2003
+  didascalia: "La prima edizione del Linux Day a cui il gruppo ha preso parte."
+  immagini:
+    - file: LD2003.jpg
+    # - file: LD2003-2.jpg
+    #   didascalia: "Il banchetto di installazione."
+
+- anno: 2007
+  didascalia: ""
+  immagini:
+    - file: LD2007.jpg
+    # - file: LD2007-2.jpg
+    #   didascalia: "Il banchetto di installazione."
+
+- anno: 2018
+  didascalia: ""
+  immagini:
+    - file: LD2018.jpg
+    # - file: LD20-2.jpg
+    #   didascalia: "Il banchetto di installazione."

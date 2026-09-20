@@ -45,6 +45,11 @@ L'evento è **gratuito e aperto a tutti**: non serve alcuna competenza tecnica p
 - Il Linux Day è un evento nazionale: sul [sito ufficiale linuxday.it](https://www.linuxday.it/2026/)
   trovi l'elenco di tutti gli eventi in Italia.
 
+## Un po' di storia
+
+Il Sulmona LUG partecipa al Linux Day dal 2003: dai un'occhiata alle foto delle edizioni
+passate nel nostro [Archivio](/archivio/).
+
 ## Diffondi l'iniziativa
 
 Aiutaci a far girare la voce: condividi questa pagina e usa l'hashtag **#LinuxDay2026**

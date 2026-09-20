@@ -42,3 +42,6 @@ c'è anche la nostra bandiera storica, realizzata dal gruppo tempo fa:
   <img src="{{ '/assets/images/flag_2.0.svg' | relative_url }}" alt="Bandiera storica del Sulmona LUG">
   <figcaption>La bandiera storica del Sulmona LUG.</figcaption>
 </figure>
+
+Il gruppo partecipa al Linux Day dal 2003: nell'[Archivio](/archivio/) raccogliamo via via le
+foto di questi 23 anni di storia.
