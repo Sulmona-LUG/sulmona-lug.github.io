@@ -5,7 +5,7 @@ description: >-
   Sulmona LUG è il gruppo utenti Linux e software libero di Sulmona e della Valle Peligna:
   incontri, workshop, installation party e divulgazione su Linux, open source e cultura digitale libera.
 
-url: "https://sulmona-lug.github.io"
+url: "https://www.sulmonalug.it"
 baseurl: ""
 image: /assets/images/ovidiux_orizzontale.png
 
@@ -20,7 +20,7 @@ author:
 social:
   github: sulmona-lug
   telegram: sulmonalug
-  mastodon: ""
+  mastodon: "@sulmonalug"
   email: info@sulmonalug.it
 
 # Navigazione principale (usata in _includes/nav.html)

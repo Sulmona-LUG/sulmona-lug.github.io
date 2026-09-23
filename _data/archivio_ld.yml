@@ -10,10 +10,31 @@
     # - file: LD2003-2.jpg
     #   didascalia: "Il banchetto di installazione."
 
+- anno: 2004
+  didascalia: ""
+  immagini:
+    - file: LD2004.jpg
+    # - file: LD2007-2.jpg
+    #   didascalia: "Il banchetto di installazione."
+
 - anno: 2007
   didascalia: ""
   immagini:
     - file: LD2007.jpg
+    # - file: LD2007-2.jpg
+    #   didascalia: "Il banchetto di installazione."
+
+- anno: 2009
+  didascalia: ""
+  immagini:
+    - file: LD2009.jpg
+    # - file: LD2007-2.jpg
+    #   didascalia: "Il banchetto di installazione."
+
+- anno: 2010
+  didascalia: ""
+  immagini:
+    - file: LD2010.jpg
     # - file: LD2007-2.jpg
     #   didascalia: "Il banchetto di installazione."
 
