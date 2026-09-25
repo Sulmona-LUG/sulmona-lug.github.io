@@ -20,7 +20,7 @@ author:
 social:
   github: sulmona-lug
   telegram: sulmonalug
-  mastodon: "@sulmonalug@mastodon.uno"
+  mastodon: "https://mastodon.uno/@sulmonalug"
   email: info@sulmonalug.it
 
 # Navigazione principale (usata in _includes/nav.html)
