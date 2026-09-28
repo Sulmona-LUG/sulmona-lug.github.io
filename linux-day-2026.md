@@ -30,10 +30,68 @@ L'evento si terrà presso lo **Spazio di Coworking Blink**, S.S. 17 Bivio Badia 
 ## Programma
 
 Il programma dettagliato dell'evento è ancora in fase di definizione e verrà pubblicato su
-questa pagina non appena pronto, insieme agli orari precisi.
+questa pagina non appena pronto, insieme agli orari precisi. Come da tradizione, includerà
+talk e momenti pratici dedicati a Linux e al software libero, pensati sia per chi è alle
+prime armi sia per chi vuole approfondire.
 
-Come da tradizione, includerà talk e momenti pratici dedicati a Linux e al software libero,
-pensati sia per chi è alle prime armi sia per chi vuole approfondire.
+Ecco l'ordine degli interventi (in aggiornamento):
+
+<div class="programma-timeline">
+
+  <div class="t-item">
+    <div class="t-time">16:00</div>
+    <h4>Accoglienza</h4>
+    <p>Accoglienza dei partecipanti.</p>
+  </div>
+
+  <div class="t-item">
+    <div class="t-time">A seguire</div>
+    <h4>Alessandro Sigismondi</h4>
+  </div>
+
+  <div class="t-item">
+    <div class="t-time">A seguire</div>
+    <h4>Fabio Mattei</h4>
+  </div>
+
+  <div class="t-item">
+    <div class="t-time">A seguire</div>
+    <h4>Francesco La Vella</h4>
+    <p>Linux a Scuola</p>
+  </div>
+
+  <div class="t-item">
+    <div class="t-time">A seguire</div>
+    <h4>Pietro Valocchi</h4>
+    <p>Context Engineering e AI Agent</p>
+  </div>
+
+  <div class="t-item">
+    <div class="t-time">A seguire</div>
+    <h4>Chiusura e saluti</h4>
+    <p>Ringraziamenti, feedback, prossimi eventi.</p>
+  </div>
+
+  <div class="t-item is-break">
+    <h4>Officina Linux: Test Drive e Install Party</h4>
+    <p>Porta il tuo laptop se vuoi installare Linux o provarlo in sessione Live da USB. I volontari saranno a disposizione per supporto e configurazione</p>
+  </div>  
+
+</div>
+
+### Presenta il tuo intervento
+
+Accogliamo con entusiasmo contributi di ogni tipologia — relazioni, workshop, dimostrazioni
+e laboratori — che abbiano attinenza con il mondo di Linux, il Software Libero e lo sviluppo
+Open Source. Sei benvenuto anche se vuoi presentare un tuo progetto personale.
+
+Candidature entro il **20 ottobre 2026**: 
+
+[invia la tua proposta](mailto:{{ site.social.email }}).
+
+[canale Telegram](https://t.me/{{ site.social.telegram }})
+
+
 
 ## Come partecipare
 
