@@ -11,7 +11,7 @@ description: >-
   <img src="{{ '/assets/images/linuxday-2026-logo.svg' | relative_url }}" alt="Linux Day 2026" class="event-banner-logo">
   <p class="event-banner-tag">#LinuxDay2026 · Giornata Nazionale per il Software Libero</p>
   <p class="event-banner-date">Sabato 24 ottobre 2026</p>
-  <p class="event-banner-loc">Spazio di Coworking Blink, S.S. 17 Bivio Badia snc, Sulmona (AQ) — orario in via di definizione</p>
+  <p class="event-banner-loc">Blik HUB, S.S. 17 Bivio Badia snc, Sulmona (AQ) — orario in via di definizione</p>
   <a class="btn btn-primary" href="https://t.me/{{ site.social.telegram }}">Resta aggiornato</a>
 </div>
 
@@ -24,8 +24,8 @@ Anche il **Sulmona LUG** partecipa all'edizione 2026, in programma **sabato 24 o
 
 ## Dove
 
-L'evento si terrà presso lo **Spazio di Coworking Blink**, S.S. 17 Bivio Badia snc, Sulmona (AQ)
-— [apri su Google Maps](https://www.google.com/maps/search/?api=1&query=Spazio+di+Coworking+Blink+S.S.+17+Bivio+Badia+snc+Sulmona+AQ).
+L'evento si terrà presso lo **Blink HUB**, S.S. 17 Bivio Badia snc, Sulmona (AQ)
+— [apri su Google Maps](https://www.google.com/maps/search/?api=1&query=Blink+HUB+S.S.+17+Bivio+Badia+snc+Sulmona+AQ).
 
 ## Programma
 
