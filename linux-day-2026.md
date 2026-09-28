@@ -47,6 +47,7 @@ Ecco l'ordine degli interventi (in aggiornamento):
   <div class="t-item">
     <div class="t-time">A seguire</div>
     <h4>Alessandro Sigismondi</h4>
+    <p>L'Arte dell'Ombra: l'OSINT tra Tracce Digitali e Sistemi Vulnerabili</p>
   </div>
 
   <div class="t-item">
