@@ -52,6 +52,7 @@ Ecco l'ordine degli interventi (in aggiornamento):
   <div class="t-item">
     <div class="t-time">A seguire</div>
     <h4>Fabio Mattei</h4>
+    <p>Come uitlizzare l’IA in locale: un approccio pratico</p>
   </div>
 
   <div class="t-item">
