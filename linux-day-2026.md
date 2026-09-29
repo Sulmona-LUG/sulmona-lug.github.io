@@ -34,7 +34,7 @@ questa pagina non appena pronto, insieme agli orari precisi. Come da tradizione,
 talk e momenti pratici dedicati a Linux e al software libero, pensati sia per chi è alle
 prime armi sia per chi vuole approfondire.
 
-Ecco l'ordine degli interventi (in aggiornamento):
+Ecco l'ordine degli interventi (in aggiornamento e in ordine alfabetico, poi verrà tirato a sorte):
 
 <div class="programma-timeline">
 
@@ -60,6 +60,12 @@ Ecco l'ordine degli interventi (in aggiornamento):
     <div class="t-time">A seguire</div>
     <h4>Francesco La Vella</h4>
     <p>Linux a Scuola</p>
+  </div>
+
+  <div class="t-item">
+    <div class="t-time">A seguire</div>
+    <h4>Luca Di Vita</h4>
+    <p>Talk su Python</p>
   </div>
 
   <div class="t-item">
