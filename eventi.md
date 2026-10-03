@@ -17,7 +17,7 @@ appassionate di software libero.
   {% for evento in eventi_futuri %}
   {% assign mese_idx = evento.data | date: "%m" | plus: 0 | minus: 1 %}
   <li>
-    <strong>{{ evento.data | date: "%-d" }} {{ site.data.mesi_it[mese_idx] }} {{ evento.data | date: "%Y" }}</strong> — {{ evento.titolo }}<br>
+    <strong>{{ evento.data | date: "%-d" }} {{ site.data.mesi_it[mese_idx] }} {{ evento.data | date: "%Y" }}{% if evento.orario and evento.orario != "" %}, ore {{ evento.orario }}{% endif %}</strong> — {{ evento.titolo }}<br>
     <em>{{ evento.luogo }}</em>
     <p>{{ evento.descrizione }}</p>
     {% if evento.url and evento.url != "" %}<a href="{{ evento.url }}">Maggiori informazioni &rarr;</a>{% endif %}
