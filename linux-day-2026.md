@@ -12,7 +12,10 @@ description: >-
   <p class="event-banner-tag">#LinuxDay2026 · Giornata Nazionale per il Software Libero</p>
   <p class="event-banner-date">Sabato 24 ottobre 2026</p>
   <p class="event-banner-loc">Blik HUB, S.S. 17 Bivio Badia snc, Sulmona (AQ) — orario in via di definizione</p>
-  <a class="btn btn-primary" href="https://t.me/{{ site.social.telegram }}">Resta aggiornato</a>
+  <div class="event-banner-actions">
+    <a class="btn btn-primary" href="https://iscrizioni.sulmonalug.it/261024" target="_blank" rel="noopener">Iscriviti</a>
+    <a class="btn btn-outline" href="https://t.me/{{ site.social.telegram }}">Resta aggiornato</a>
+  </div>
 </div>
 
 Il **Linux Day** è la giornata nazionale dedicata al software libero, alla cultura open
@@ -110,6 +113,20 @@ L'evento è **gratuito e aperto a tutti**: non serve alcuna competenza tecnica p
 - Consulta anche la pagina [Eventi](/eventi/), che verrà aggiornata con l'orario definitivo.
 - Il Linux Day è un evento nazionale: sul [sito ufficiale linuxday.it](https://www.linuxday.it/2026/)
   trovi l'elenco di tutti gli eventi in Italia.
+
+## Iscrizione
+
+L'ingresso è libero, ma ti chiediamo di **iscriverti**: sapere in anticipo quanti saremo
+ci aiuta a organizzare gli spazi, e sapere se sei curioso, esperto o tecnico avanzato,
+studente o professionista, ci permette di **calibrare gli interventi** sul pubblico.
+
+Il modulo richiede un minuto e gira su [LimeSurvey](https://www.limesurvey.org/),
+software libero ospitato sul nostro server: i tuoi dati restano a noi e servono
+solo per l'organizzazione dell'evento.
+
+<p class="signup-cta">
+  <a class="btn btn-accent" href="https://iscrizioni.sulmonalug.it/261024" target="_blank" rel="noopener">Iscriviti al Linux Day 2026</a>
+</p>
 
 ## Un po' di storia
 

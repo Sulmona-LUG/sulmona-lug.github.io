@@ -397,3 +397,22 @@ th, td { border: 1px solid var(--border); padding: .5rem .75rem; text-align: lef
   width: 100%;
   height: auto;
 }
+
+.event-banner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .75rem;
+}
+.btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: calc(.65rem - 2px) calc(1.4rem - 2px);
+}
+.btn-outline:hover { background: rgba(255, 255, 255, .15); }
+.btn-accent {
+  background: var(--accent);
+  color: var(--bg);
+}
+.btn-accent:hover { background: var(--accent-dark); color: var(--bg); }
+.signup-cta { text-align: center; margin: 1.5rem 0; }
