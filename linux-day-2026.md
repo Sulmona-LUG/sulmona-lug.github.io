@@ -4,14 +4,14 @@ title: "Linux Day 2026 a Sulmona"
 permalink: /linux-day-2026/
 description: >-
   Sabato 24 ottobre 2026 il Sulmona LUG festeggia il Linux Day, la Giornata Nazionale
-  per il Software Libero. Programma in arrivo.
+  per il Software Libero. Dalle 15:30 al Blink HUB: talk, laboratori e install party.
 ---
 
 <div class="event-banner">
   <img src="{{ '/assets/images/linuxday-2026-logo.svg' | relative_url }}" alt="Linux Day 2026" class="event-banner-logo">
   <p class="event-banner-tag">#LinuxDay2026 · Giornata Nazionale per il Software Libero</p>
-  <p class="event-banner-date">Sabato 24 ottobre 2026</p>
-  <p class="event-banner-loc">Blik HUB, S.S. 17 Bivio Badia snc, Sulmona (AQ) — orario in via di definizione</p>
+  <p class="event-banner-date">Sabato 24 ottobre 2026 · 15:30</p>
+  <p class="event-banner-loc">Blink HUB, S.S. 17 Bivio Badia snc, Sulmona (AQ)</p>
   <div class="event-banner-actions">
     <a class="btn btn-primary" href="https://iscrizioni.sulmonalug.it/261024" target="_blank" rel="noopener">Iscriviti</a>
     <a class="btn btn-outline" href="https://t.me/{{ site.social.telegram }}">Resta aggiornato</a>
@@ -32,17 +32,13 @@ L'evento si terrà presso lo **Blink HUB**, S.S. 17 Bivio Badia snc, Sulmona (AQ
 
 ## Programma
 
-Il programma dettagliato dell'evento è ancora in fase di definizione e verrà pubblicato su
-questa pagina non appena pronto, insieme agli orari precisi. Come da tradizione, includerà
-talk e momenti pratici dedicati a Linux e al software libero, pensati sia per chi è alle
-prime armi sia per chi vuole approfondire.
-
-Ecco l'ordine degli interventi (in aggiornamento e in ordine alfabetico, poi verrà tirato a sorte):
+Si comincia alle **15:30** con l'accoglienza; a seguire gli interventi, uno dopo l'altro senza
+orari fissi. I relatori sono elencati in ordine alfabetico: l'ordine effettivo verrà tirato a sorte.
 
 <div class="programma-timeline">
 
   <div class="t-item">
-    <div class="t-time">16:00</div>
+    <div class="t-time">15:30</div>
     <h4>Accoglienza</h4>
     <p>Accoglienza dei partecipanti.</p>
   </div>
@@ -51,6 +47,12 @@ Ecco l'ordine degli interventi (in aggiornamento e in ordine alfabetico, poi ver
     <div class="t-time">A seguire</div>
     <h4>Alessandro Sigismondi</h4>
     <p>L'Arte dell'Ombra: l'OSINT tra Tracce Digitali e Sistemi Vulnerabili</p>
+  </div>
+
+  <div class="t-item">
+    <div class="t-time">A seguire</div>
+    <h4>Carlo Nannicola</h4>
+    <p>Dal codice alla materia: il FabLab dell'Accademia come ecosistema Open Source</p>
   </div>
 
   <div class="t-item">
@@ -73,12 +75,18 @@ Ecco l'ordine degli interventi (in aggiornamento e in ordine alfabetico, poi ver
 
   <div class="t-item">
     <div class="t-time">A seguire</div>
+    <h4>Mario Rosati</h4>
+    <p>Hardware, interconnessioni e stack software per chat e cowork privati</p>
+  </div>
+
+  <div class="t-item">
+    <div class="t-time">A seguire</div>
     <h4>Pietro Valocchi</h4>
     <p>Context Engineering e AI Agent</p>
   </div>
 
   <div class="t-item">
-    <div class="t-time">A seguire</div>
+    <div class="t-time">19:30 circa</div>
     <h4>Chiusura e saluti</h4>
     <p>Ringraziamenti, feedback, prossimi eventi.</p>
   </div>
@@ -108,9 +116,8 @@ Candidature entro il **20 ottobre 2026**:
 
 L'evento è **gratuito e aperto a tutti**: non serve alcuna competenza tecnica pregressa.
 
-- Segui il nostro [canale Telegram](https://t.me/{{ site.social.telegram }}) per essere
-  avvisato non appena il programma è pronto.
-- Consulta anche la pagina [Eventi](/eventi/), che verrà aggiornata con l'orario definitivo.
+- Segui il nostro [canale Telegram](https://t.me/{{ site.social.telegram }}) per restare
+  aggiornato su eventuali novità.
 - Il Linux Day è un evento nazionale: sul [sito ufficiale linuxday.it](https://www.linuxday.it/2026/)
   trovi l'elenco di tutti gli eventi in Italia.
 
