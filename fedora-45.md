@@ -99,3 +99,18 @@ qualsiasi domanda.
 
 Aiutaci a far girare la voce: condividi questa pagina e usa l'hashtag **#Fedora45**
 parlando dell'evento di Sulmona.
+
+Questi sono i flyer che stiamo facendo girare in rete: scaricali e condividili!
+
+<div class="archive-gallery">
+  <div class="archive-item flyer-item">
+    <a href="{{ '/assets/images/flyer.F45.01.jpeg' | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ '/assets/images/flyer.F45.01.jpeg' | relative_url }}" alt="Flyer Fedora 45 Release Party Sulmona" loading="lazy">
+    </a>
+  </div>
+  <div class="archive-item flyer-item">
+    <a href="{{ '/assets/images/flyer.F45.02.jpeg' | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ '/assets/images/flyer.F45.02.jpeg' | relative_url }}" alt="Flyer Fedora 45 Release Party Sulmona (formato quadrato)" loading="lazy">
+    </a>
+  </div>
+</div>
