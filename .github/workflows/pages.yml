@@ -4,6 +4,9 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  # ricompila ogni notte (01:00 UTC) per spostare tra i passati gli eventi già svolti
+  schedule:
+    - cron: "0 1 * * *"
 
 permissions:
   contents: read

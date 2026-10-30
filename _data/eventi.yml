@@ -11,3 +11,9 @@
   luogo: "Blink HUB, S.S. 17 Bivio Badia snc, Sulmona (AQ) — dalle 15:30 alle 19:30"
   descrizione: "Il Sulmona LUG festeggia la Giornata Nazionale per il Software Libero: talk, laboratori e install party."
   url: "/linux-day-2026/"
+- data: 2026-11-05
+  orario: "18.00"
+  titolo: "Incontro mensile di novembre: Fedora 45 Release Party"
+  luogo: "Blink HUB, S.S. 17 Bivio Badia snc, Sulmona (AQ)"
+  descrizione: "L'incontro mensile di novembre è dedicato a Fedora Linux 45: le principali novità, un'installazione da zero dal vivo e supporto per chi vuole provarla sul proprio PC."
+  url: "/fedora-45/"

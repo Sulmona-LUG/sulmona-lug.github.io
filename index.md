@@ -14,9 +14,9 @@ blocks:
     text: "Incontri mensili, mailing list e canale Telegram: la community è aperta a tutti, dai principianti agli smanettoni."
     url: /partecipa/
     link_text: "Scopri come partecipare"
-  - title: "Linux Day 2026"
-    text: "Sabato 24 ottobre festeggiamo la Giornata Nazionale per il Software Libero: programma in arrivo, segna la data!"
-    url: /linux-day-2026/
+  - title: "Fedora 45 Release Party"
+    text: "Giovedì 5 novembre alle 18:00 al Blink HUB l'incontro mensile è dedicato a Fedora 45: novità, installazione dal vivo e supporto per provarla sul tuo PC."
+    url: /fedora-45/
     link_text: "Scopri l'evento"
   - title: "Chi siamo"
     text: "Un gruppo di volontari che promuove software libero e cultura digitale aperta sul territorio della Valle Peligna."
