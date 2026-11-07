@@ -193,6 +193,19 @@ h1, h2, h3 { line-height: 1.25; }
   color: var(--text-muted);
 }
 
+.logo-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 0 0 1.75rem;
+  padding: 1.25rem 1.5rem;
+  background: #1a1d21;
+  border-radius: 10px;
+}
+.logo-strip img { display: block; width: auto; max-width: 100%; }
+
 .event-banner {
   background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
   color: #fff;
