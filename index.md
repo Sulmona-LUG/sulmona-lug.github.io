@@ -18,6 +18,10 @@ blocks:
     text: "Giovedì 5 novembre alle 18:00 al Blink HUB l'incontro mensile è dedicato a Fedora 45: novità, installazione dal vivo e supporto per provarla sul tuo PC."
     url: /fedora-45/
     link_text: "Scopri l'evento"
+  - title: "Code Club Sulmona"
+    text: "Coding per bambini e ragazzi dai 7 ai 14 anni al Blink HUB: Scratch, micro:bit, Luanti e Python, con l'aiuto di mentor volontari."
+    url: /code-club/
+    link_text: "Scopri il Code Club"
   - title: "Chi siamo"
     text: "Un gruppo di volontari che promuove software libero e cultura digitale aperta sul territorio della Valle Peligna."
     url: /chi-siamo/
