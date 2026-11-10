@@ -1,0 +1,152 @@
+# Isole dell'Arcipelago del Code Club Sulmona
+# Usate da code-club-arcipelago.html per disegnare la mappa e le schede per le famiglie.
+# x, y, r: posizione e raggio dell'isola sulla mappa (area 1000 x 560)
+# mappa: etichetta breve sulla mappa, se diversa da tech
+# tipo: partenza | fissa | misteriosa | missione
+
+- id: porto-logico
+  nome: Porto Logico
+  mappa: Unplugged
+  tech: Coding senza computer
+  eta: Per tutti
+  tipo: partenza
+  x: 120
+  y: 300
+  r: 52
+  colore: "#d9c08a"
+  testo: >-
+    Qui comincia ogni viaggio, anche senza computer. Si gioca a fare il robot su una griglia
+    disegnata a terra, si scrivono le istruzioni per preparare un panino (e si scopre che il
+    computer fa esattamente quello che gli dici) e si impara a contare come lui con le carte
+    binarie. È il primo timbro del diario di bordo.
+
+- id: baia-delle-api
+  nome: Baia delle Api
+  tech: Bee-Bot
+  eta: Per i più piccoli
+  tipo: partenza
+  x: 150
+  y: 455
+  r: 45
+  colore: "#f2c94c"
+  testo: >-
+    Bee-Bot è un'ape robot che si programma con i tasti: avanti, indietro, gira. A coppie, i
+    bambini la guidano sul tappeto dell'Arcipelago tra scogli e tesori, scrivendo prima la
+    rotta con i cartoncini e poi provandola. Quando scoprono che un quadrato è "avanti e gira,
+    quattro volte", sono pronti a salpare verso l'Isola dei Gatti.
+
+- id: isola-dei-gatti
+  nome: Isola dei Gatti
+  tech: Scratch
+  eta: Dai 7 anni
+  tipo: fissa
+  x: 320
+  y: 130
+  r: 60
+  colore: "#e8a65b"
+  testo: >-
+    Videogiochi, storie animate e quiz costruiti con i blocchi colorati di Scratch. Si comincia
+    facendo muovere un personaggio con le frecce e si arriva a inventare un gioco tutto proprio,
+    con punti, vite e livelli.
+
+- id: isola-dei-lampi
+  nome: Isola dei Lampi
+  tech: micro:bit
+  eta: Dagli 8 anni
+  tipo: fissa
+  x: 360
+  y: 340
+  r: 55
+  colore: "#e8d35b"
+  testo: >-
+    Il micro:bit è un piccolo computer che sta in una mano, con luci, pulsanti e sensori. Si
+    programma a blocchi e diventa un dado elettronico, un contapassi, un termometro o il cuore
+    luminoso di un teatrino di cartone. Da qui parte il ponte dorato verso l'Isola del Serpente.
+
+- id: isola-delle-miniere
+  nome: Isola delle Miniere
+  mappa: Luanti
+  tech: Luanti, il Minecraft libero
+  eta: Dagli 8 anni
+  tipo: fissa
+  x: 330
+  y: 480
+  r: 55
+  colore: "#8fbf6a"
+  testo: >-
+    Luanti è un gioco a blocchi libero, simile a Minecraft. In un mondo condiviso dal club
+    ognuno costruisce il proprio rifugio, poi impara a collegare leve, lampade e porte
+    automatiche, fino a progettare veri circuiti: una cassaforte, un allarme, un semaforo.
+
+- id: isola-del-serpente
+  nome: Isola del Serpente
+  tech: Python + Pico
+  eta: Dagli 11 anni
+  tipo: fissa
+  x: 620
+  y: 250
+  r: 62
+  colore: "#6aa36f"
+  testo: >-
+    Qui si scrive codice vero, in Python: prima sul computer, poi su un Raspberry Pi Pico
+    collegato a LED, pulsanti e sensori. Nascono un semaforo, un gioco dei riflessi, una
+    lampada che si accende quando fa buio. Ci si arriva dall'Isola dei Lampi o dal Vulcano.
+
+- id: vulcano
+  nome: Il Vulcano
+  tech: Saldatura
+  eta: Dai 10 anni
+  tipo: misteriosa
+  x: 540
+  y: 100
+  r: 50
+  colore: "#b5543c"
+  testo: >-
+    Si impara a saldare con le proprie mani, come veri esploratori: stazioni a temperatura
+    controllata, occhiali protettivi e un adulto ogni due postazioni. Piccoli gruppi a numero
+    chiuso, con un'autorizzazione specifica dei genitori. Si porta a casa una spilla luminosa
+    e, chi prosegue, il proprio Raspberry Pi Pico con i pin saldati.
+
+- id: fucina
+  nome: La Fucina
+  mappa: Stampa 3D
+  tech: Stampa 3D · Tinkercad
+  eta: Dai 10 anni
+  tipo: misteriosa
+  x: 800
+  y: 330
+  r: 50
+  colore: "#9a8f86"
+  testo: >-
+    Si disegna un oggetto al computer con Tinkercad, per esempio un portachiavi con il proprio
+    nome, e lo si ritira stampato in 3D all'incontro successivo. I più esperti progettano i
+    loro oggetti scrivendo codice. La stampante la usa solo un adulto.
+
+- id: scogliera-sonora
+  nome: Scogliera Sonora
+  tech: Sonic Pi
+  eta: Dai 9 anni
+  tipo: misteriosa
+  x: 600
+  y: 450
+  r: 50
+  colore: "#7f8fc9"
+  testo: >-
+    Musica scritta in codice con Sonic Pi. Si comincia suonando Fra Martino nota per nota e si
+    arriva a comporre un brano con batteria e melodia che suonano insieme, da eseguire dal vivo
+    davanti a tutti.
+
+- id: faro-delle-stelle
+  nome: Faro delle Stelle
+  mappa: Astro Pi
+  tech: Astro Pi Mission Zero
+  eta: Da Python in su
+  tipo: missione
+  x: 840
+  y: 100
+  r: 45
+  colore: "#f1e7a8"
+  testo: >-
+    La missione dell'anno: con Astro Pi Mission Zero, dell'Agenzia Spaziale Europea e della
+    Raspberry Pi Foundation, un breve programma in Python scritto dai ragazzi viene eseguito
+    sulla Stazione Spaziale Internazionale. Si raggiunge dall'Isola del Serpente.

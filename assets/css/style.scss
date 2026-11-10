@@ -172,7 +172,7 @@ h1, h2, h3 { line-height: 1.25; }
 .home-block h2 { font-size: 1.15rem; margin-top: 0; }
 
 /* Generic page */
-.page { padding: 2.5rem 0 3.5rem; }
+.page { padding: 2.5rem 1.25rem 3.5rem; }
 .page h1 { margin-top: 0; }
 
 .mascot-figure, .flag-figure {
@@ -429,3 +429,117 @@ th, td { border: 1px solid var(--border); padding: .5rem .75rem; text-align: lef
 }
 .btn-accent:hover { background: var(--accent-dark); color: var(--bg); }
 .signup-cta { text-align: center; margin: 1.5rem 0; }
+
+/* Code Club: l'Arcipelago */
+.arc-mappa {
+  --carta: #f3e6c4;
+  --inchiostro: #3b2a1a;
+  margin: 1.5rem 0 2rem;
+  padding: .75rem;
+  background: var(--carta);
+  color: var(--inchiostro);
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .18);
+}
+.arc-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.arc-mappa svg {
+  display: block;
+  width: 100%;
+  min-width: 640px;
+  height: auto;
+  border: 3px double var(--inchiostro);
+  border-radius: 4px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.arc-mare { fill: #9cc7c9; }
+.arc-rotte { stroke: #a8322d; }
+.arc-ponte { stroke: #c8952b; }
+.arc-rosa, .arc-legenda { fill: var(--inchiostro); }
+.arc-rosa circle { fill: none; stroke: var(--inchiostro); }
+.arc-corpo { stroke: var(--inchiostro); }
+.arc-isola { cursor: pointer; }
+.arc-isola > * { transition: transform .2s, opacity .6s; }
+.arc-isola:hover > *, .arc-isola:focus > * { transform: translateY(-3px); }
+.arc-isola:focus { outline: none; }
+.arc-isola:focus-visible .arc-corpo, .arc-attiva .arc-corpo { stroke: #a8322d; stroke-width: 4; }
+.arc-nome { font-size: 15px; font-weight: bold; text-anchor: middle; fill: var(--inchiostro); }
+.arc-tech { font-size: 12px; font-style: italic; text-anchor: middle; fill: var(--inchiostro); }
+.arc-nebbia { fill: #eef2f2; opacity: .85; }
+.arc-misteriosa:hover .arc-nebbia, .arc-misteriosa:hover .arc-nebbia-testo,
+.arc-misteriosa:focus-visible .arc-nebbia, .arc-misteriosa:focus-visible .arc-nebbia-testo,
+.arc-rivelata .arc-nebbia, .arc-rivelata .arc-nebbia-testo { opacity: 0; }
+.arc-mappa figcaption { margin-top: .75rem; }
+.arc-scheda {
+  min-height: 4.5rem;
+  padding: .9rem 1.1rem;
+  border: 2px dashed var(--inchiostro);
+  border-radius: 6px;
+  background: #fbf3dc;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.arc-scheda p { margin: 0; }
+.arc-scheda .arc-card { border: 0; padding: 0; background: none; box-shadow: none; }
+.arc-scheda .arc-card p + p { margin-top: .4rem; }
+.arc-scheda h3 { margin: 0 0 .2rem; font-size: 1.15rem; }
+.arc-scheda .arc-meta { color: #5a4330; }
+.arc-scheda a { color: #a8322d; }
+.arc-lead { font-size: 1.1rem; }
+.arc-scorri { display: none; margin: 0 0 .5rem; font-size: .85rem; font-style: italic; text-align: center; }
+@media (max-width: 700px) { .arc-scorri { display: block; } }
+
+.arc-regole dt { font-weight: 700; margin-top: 1rem; }
+.arc-regole dd { margin: .25rem 0 0; color: var(--text-muted); }
+
+.arc-isole {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1.25rem 0 2rem;
+}
+.arc-card {
+  position: relative;
+  padding: 1.1rem 1.25rem 1rem;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  scroll-margin-top: 5rem;
+}
+.arc-card h3 { margin: 0 0 .25rem; padding-right: 1.75rem; }
+.arc-card p { margin: .5rem 0 0; }
+.arc-meta { color: var(--text-muted); font-size: .9rem; font-style: italic; }
+.arc-bollino {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.1rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  border: 2px solid #3b2a1a;
+}
+.arc-card:target { outline: 3px solid var(--accent); }
+.arc-torna { font-size: .85rem; }
+.arc-volontari {
+  padding: .9rem 1.1rem;
+  border-left: 4px solid var(--accent);
+  background: var(--bg-alt);
+  border-radius: 0 8px 8px 0;
+}
+
+/* Code Club: logo e materiali stampabili */
+.logo-strip .cc-logo-strip { height: 120px; }
+.cc-materiale { margin: 1.25rem 0 2rem; }
+.cc-materiale img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .12);
+}
+.cc-materiale-verticale img { max-width: 420px; margin: 0 auto; }
+.cc-materiale figcaption {
+  margin-top: .6rem;
+  font-size: .9rem;
+  color: var(--text-muted);
+  text-align: center;
+}

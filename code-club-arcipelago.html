@@ -1,0 +1,118 @@
+---
+layout: page
+title: L'Arcipelago del Code Club
+permalink: /code-club/arcipelago/
+description: >-
+  La mappa dell'Arcipelago del Code Club Sulmona: le isole dove bambini e ragazzi dai 7 ai 14
+  anni programmano con Scratch, micro:bit, Luanti, Python, saldatura, stampa 3D e Sonic Pi.
+---
+
+<p class="arc-lead">Al <a href="{{ '/code-club/' | relative_url }}">Code Club Sulmona</a> ogni
+tecnologia è un'isola. Si parte tutti dal Porto Logico, poi la rotta la sceglie ciascun
+esploratore: ogni isola nasconde dei tesori da conquistare e da timbrare sul proprio
+<strong>diario di bordo</strong>.</p>
+
+<figure class="arc-mappa" id="mappa">
+<div class="arc-scroll">
+<svg viewBox="0 0 1000 560" role="group" aria-label="Mappa dell'Arcipelago del Code Club: tocca un'isola per scoprire cosa si fa">
+<defs>
+<pattern id="arc-onde" width="40" height="20" patternUnits="userSpaceOnUse"><path d="M0 10 q10 -8 20 0 t20 0" fill="none" stroke="#7fb0b3" stroke-width="1.5"/></pattern>
+<filter id="arc-ruvido"><feTurbulence baseFrequency=".04" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="9"/></filter>
+</defs>
+<rect class="arc-mare" width="1000" height="560"/>
+<rect width="1000" height="560" fill="url(#arc-onde)" opacity=".6"/>
+<g class="arc-rotte" fill="none" stroke-width="3" stroke-dasharray="8 7">
+<path d="M140 300 Q220 180 300 140"/><path d="M140 300 Q240 300 330 330"/>
+<path d="M140 300 Q220 430 310 470"/><path d="M118 352 Q110 395 140 420"/><path d="M390 330 Q500 300 590 260"/>
+<path d="M640 230 Q720 150 820 110"/><path d="M560 120 Q600 170 610 210"/>
+</g>
+<g class="arc-ponte" stroke-width="5" fill="none"><path d="M390 330 L585 250"/></g>
+<g class="arc-rosa" transform="translate(920,480)"><circle r="32" stroke-width="2"/>
+<path d="M0 -40 L7 0 L0 40 L-7 0Z"/><path d="M-40 0 L0 -7 L40 0 L0 7Z" opacity=".5"/><text y="-46" text-anchor="middle" font-size="14">N</text></g>
+{% for i in site.data.arcipelago %}<a href="#{{ i.id }}" class="arc-isola{% if i.tipo == 'misteriosa' %} arc-misteriosa{% endif %}" data-isola="{{ i.id }}" aria-label="{{ i.nome }}, {{ i.tech }}{% if i.tipo == 'misteriosa' %}, isola misteriosa{% endif %}">
+<ellipse cx="{{ i.x }}" cy="{{ i.y | plus: 6 }}" rx="{{ i.r | plus: 10 }}" ry="{{ i.r | times: 0.75 | plus: 8 }}" fill="#e9d9a6" filter="url(#arc-ruvido)"/>
+<ellipse cx="{{ i.x }}" cy="{{ i.y }}" rx="{{ i.r }}" ry="{{ i.r | times: 0.72 }}" fill="{{ i.colore }}" class="arc-corpo" stroke-width="2" filter="url(#arc-ruvido)"/>
+<text x="{{ i.x }}" y="{{ i.y | minus: 4 }}" class="arc-nome">{{ i.nome }}</text>
+<text x="{{ i.x }}" y="{{ i.y | plus: 14 }}" class="arc-tech">{{ i.mappa | default: i.tech }}</text>
+{% if i.tipo == 'misteriosa' %}<ellipse cx="{{ i.x }}" cy="{{ i.y }}" rx="{{ i.r | plus: 18 }}" ry="{{ i.r | times: 0.8 | plus: 14 }}" class="arc-nebbia"/>
+<text x="{{ i.x }}" y="{{ i.y | plus: 6 }}" class="arc-nome arc-nebbia-testo">☁ ?</text>
+{% endif %}</a>
+{% endfor %}<text class="arc-legenda" x="20" y="545" font-size="13" font-style="italic">— rotta libera   ═ ponte dorato: serve il tesoro dell'isola precedente   ☁ isola misteriosa: emerge in alcuni mesi</text>
+</svg>
+</div>
+<figcaption>
+<p class="arc-scorri" aria-hidden="true">↔ Scorri la mappa per vederla tutta</p>
+<div class="arc-scheda" id="arc-scheda" aria-live="polite">
+<p>🧭 Tocca un'isola per scoprire cosa si fa e quali tesori ti aspettano.</p>
+</div>
+</figcaption>
+</figure>
+
+<h2>Come funziona il viaggio</h2>
+
+<dl class="arc-regole">
+<dt>Si parte dal Porto Logico</dt>
+<dd>Chi arriva per la prima volta comincia con giochi di logica senza computer. I più piccoli
+proseguono nella Baia delle Api con il robot Bee-Bot, gli altri scelgono la loro isola.</dd>
+<dt>I gradi e il diario di bordo</dt>
+<dd>Su ogni isola si sale di grado: <strong>Mozzo</strong> quando si prova la prima attività,
+<strong>Marinaio</strong> quando si completa un progetto da soli, <strong>Nostromo</strong>
+quando ci si mette un'idea propria, <strong>Capitano</strong> quando si aiuta un compagno a
+farcela. Ogni grado è un timbro sul diario di bordo: si timbra un risultato, mai una semplice
+presenza.</dd>
+<dt>Le isole misteriose</dt>
+<dd>Il Vulcano, la Fucina e la Scogliera Sonora emergono dalla nebbia una volta al mese, a
+turno, con posti limitati. Hanno due gradi: Mozzo e Capitano.</dd>
+<dt>I ponti dorati</dt>
+<dd>Alcune isole si raggiungono solo con il tesoro di un'altra: all'Isola del Serpente si
+arriva dai Lampi o dal Vulcano, al Faro delle Stelle dal Serpente.</dd>
+<dt>La Festa del Porto</dt>
+<dd>Una volta all'anno ognuno presenta il tesoro di cui va più fiero a famiglie e scuole e, se
+vuole, alla vetrina internazionale Coolest Projects.</dd>
+</dl>
+
+<h2>Le isole, una per una</h2>
+
+<div class="arc-isole">
+{% for i in site.data.arcipelago %}<section class="arc-card arc-{{ i.tipo }}" id="{{ i.id }}" data-isola="{{ i.id }}">
+<span class="arc-bollino" style="background: {{ i.colore }}" aria-hidden="true"></span>
+<h3>{{ i.nome }}</h3>
+<p class="arc-meta">{{ i.tech }} · {{ i.eta }}{% case i.tipo %}{% when 'misteriosa' %} · isola misteriosa{% when 'missione' %} · missione annuale{% when 'partenza' %} · per cominciare{% endcase %}</p>
+<p>{{ i.testo }}</p>
+<p class="arc-torna"><a href="#mappa">↑ Torna alla mappa</a></p>
+</section>
+{% endfor %}</div>
+
+<h2>Salpare con noi</h2>
+
+<p>Il Code Club è per bambini e ragazzi <strong>dai 7 ai 14
+anni</strong>, al <strong>Blink HUB</strong> di Sulmona (S.S. 17 Bivio Badia snc). Computer e
+materiali sono forniti dal club; non servono competenze di partenza. L'iscrizione è
+obbligatoria: scrivici a <a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a> o
+su <a href="https://t.me/{{ site.social.telegram }}">Telegram</a>.</p>
+
+<p class="arc-volontari">Sei un mentor o vuoi diventarlo? Attività, gradi e schede di ogni isola
+sono nella <a href="/code-club-guida/">guida del volontario</a>.</p>
+
+<script>
+(function () {
+  var scheda = document.getElementById('arc-scheda');
+  var isole = document.querySelectorAll('.arc-mappa .arc-isola');
+  for (var n = 0; n < isole.length; n++) {
+    isole[n].addEventListener('click', function (e) {
+      var id = this.getAttribute('data-isola');
+      var card = document.getElementById(id);
+      if (!card) return;
+      e.preventDefault();
+      this.classList.add('arc-rivelata');
+      for (var k = 0; k < isole.length; k++) isole[k].classList.toggle('arc-attiva', isole[k] === this);
+      var c = card.cloneNode(true);
+      c.removeAttribute('id');
+      var torna = c.querySelector('.arc-torna');
+      if (torna) torna.remove();
+      scheda.innerHTML = '';
+      scheda.appendChild(c);
+    });
+  }
+})();
+</script>
